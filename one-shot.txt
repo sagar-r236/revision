@@ -58,5 +58,4 @@ merging two branches : since we have two branches one is main branch and another
 
 In order to merge them:
 
-
-
+git merge <the_branch_you_want_to_merge>
