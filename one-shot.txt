@@ -59,3 +59,11 @@ merging two branches : since we have two branches one is main branch and another
 In order to merge them:
 
 git merge <the_branch_you_want_to_merge>
+
+
+********************
+Features of the github
+********************
+
+forking a github repository: if you find git repository that you would like to contribute to or you want other people to contribute
+to your repository then we need to fork that repository. or you can say make a copy of others github repo to your github account
