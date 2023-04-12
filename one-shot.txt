@@ -30,3 +30,9 @@ short hand for adding all the file and commiting at the same time is git commit 
 merge conflict : when me and other devloper try to make changes to same line we will have merge conflict, git will not know what to do in 
 this time so we explicitly have to manage this.
 ****************
+
+git log : git log will give you all the commits which you have made.
+
+git reset : git reset is used to take you back to the older version of your code, there are two types of git reset which you can make 
+-> git reset --hard <commit hash> : will take you to the version of that particular commit hash
+-> git reset --hard origin/master : will make your repository like the online git repository.   
