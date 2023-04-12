@@ -24,3 +24,9 @@ git push : it makes you to push your repository to the remote repository
 ***************
 short hand for adding all the file and commiting at the same time is git commit -am "<message>"
 ***************
+
+
+****************
+merge conflict : when me and other devloper try to make changes to same line we will have merge conflict, git will not know what to do in 
+this time so we explicitly have to manage this.
+****************
