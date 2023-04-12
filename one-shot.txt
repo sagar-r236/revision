@@ -48,3 +48,15 @@ head : head just refers to at what branch we are pointing to if there are multip
 
 git branch : this will let you to show all the branches available and the current branch you will be working on.
 
+git checkout -b <branch_name> : to create a new branch and to start working on that branch.
+
+git checkout <branch_name> : will take you to that branch.
+
+******************
+merging two branches : since we have two branches one is main branch and another is style branch
+******************
+
+In order to merge them:
+
+
+
