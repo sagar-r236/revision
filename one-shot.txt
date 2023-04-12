@@ -20,3 +20,7 @@ git commit -m : to commit
 git status : It will tell us what is happening inside of this repository.
 
 git push : it makes you to push your repository to the remote repository
+
+***************
+short hand for adding all the file and commiting at the same time is git commit -am "<message>"
+***************
