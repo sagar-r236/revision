@@ -1,0 +1,16 @@
+This contains everything which is learnt from the video.
+
+Uses of git 
+
+-> helps us to maintain different version of the code.
+-> helps us to synchronise code between different people.
+-> test changes to our code without losing the original.
+-> revert back to old version of code.
+
+git commands:
+
+git clone <url> : this command is used to take a repository from the internet and download it onto our own computer.
+
+save points are called commits. when we say we are making commit that means we are saving current state of all the files.
+
+git add <file_name> : 
