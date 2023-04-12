@@ -34,5 +34,17 @@ this time so we explicitly have to manage this.
 git log : git log will give you all the commits which you have made.
 
 git reset : git reset is used to take you back to the older version of your code, there are two types of git reset which you can make 
--> git reset --hard <commit hash> : will take you to the version of that particular commit hash
+-> git reset --hard <commit hash> : will take you to the version of that particular commit hashx
 -> git reset --hard origin/master : will make your repository like the online git repository.   
+
+*****************
+Branching : branching is working on different parts of the repository at the same time.
+
+*****************
+
+master branch is the default branch which contains up-to date, stable version of your code. 
+
+head : head just refers to at what branch we are pointing to if there are multiple branch.
+
+git branch : this will let you to show all the branches available and the current branch you will be working on.
+
