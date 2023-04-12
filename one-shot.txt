@@ -14,3 +14,9 @@ git clone <url> : this command is used to take a repository from the internet an
 save points are called commits. when we say we are making commit that means we are saving current state of all the files.
 
 git add <file_name> : 
+
+git commit -m : to commit
+
+git status : It will tell us what is happening inside of this repository.
+
+git push : it makes you to push your repository to the remote repository
