@@ -1,0 +1,23 @@
+error message : Your branch and origin branch is diverged.
+
+Main cause:
+origin branch : a->b->c->d
+local branch : a->b->e->f->g
+
+when you try to merge you will get an error.
+
+In order to solve this we have 2 solutions:
+
+  Solution 1 : git rebase origin/master
+    the graph will look like this : a->b->c->d->e->f->g
+
+
+  Solution 2 : git merge origin/master
+
+    from the divergence it acts like different branch, later you merge it.
+
+                                             c->d\  
+                                             ^
+      this graph will look like this : a->b/ ->h //both d and g get merged
+                                         \>
+                                           e->f->g/
